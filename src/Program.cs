@@ -35,14 +35,7 @@ Console.WriteLine("enter your name");
 string userName = Console.ReadLine();
     // TODO 3: Print a personalized greeting using the name you just read.
     Console.WriteLine($"Hello, {userName} welcome Home");
-
-
-    // TODO 2: Console.Write a prompt for the user's name, then
-    //   Console.ReadLine() it into a string variable.
-
-    // TODO 3: Print a personalized greeting using the name you just read.
-
-    throw new NotImplementedException("L1: print a banner, read a name, then greet it.");
+ throw new NotImplementedException("L1: print a banner, read a name, then greet it.");
 }
 
 void RunL2()
@@ -62,12 +55,6 @@ decimal discountedPrice = price * 0.90m;
     Console.WriteLine($"Book: {title} | Pages: {pageCount} | Original Price: ${price} | Discounted Price (10% off): ${discountedPrice:F2}");
 
 
-    // TODO 2: Compute a 10%-off price from price and store it in a new
-    //   decimal variable.
-
-    // TODO 3: Print title, pageCount, price, and the discounted price in
-    //   ONE interpolated string.
-
     throw new NotImplementedException("L2: declare typed variables, compute a discount, print them together.");
 }
 
@@ -82,7 +69,7 @@ int pages = 1312;
 
     // TODO 2: Declare loose variables for one Member: name (string),
     //   maxBooks (int, e.g. 3), booksCheckedOut (int, starting at 0).
-string name = "Alice Uwase";
+string name = "Denyse Uwase";
 int maxBooks = 3;
 int booksCheckedOut = 0;
     // TODO 3: Write an if/else: if booksCheckedOut < maxBooks, increment
@@ -112,18 +99,5 @@ else
         Console.WriteLine($"Limit reached: {name} cannot check out any more books (maximum limit is {maxBooks}).");
     }
 }
-
-
-    // TODO 2: Declare loose variables for one Member: name (string),
-    //   maxBooks (int, e.g. 3), booksCheckedOut (int, starting at 0).
-
-    // TODO 3: Write an if/else: if booksCheckedOut < maxBooks, increment
-    //   booksCheckedOut and print a checkout confirmation mentioning name
-    //   and title; otherwise print that the limit has been reached.
-
-    // TODO 4: Call whatever you wrote for TODO 3 four times in a row (more
-    //   than maxBooks) and confirm the limit message appears at least once.
-    //   A for loop is the natural way to do this — see Part 04.
-
-    throw new NotImplementedException("Capstone: loose Book/Member variables, an if/else checkout decision, called four times.");
+ throw new NotImplementedException("Capstone: loose Book/Member variables, an if/else checkout decision, called four times.");
 }
